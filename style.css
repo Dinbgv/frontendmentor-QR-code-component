@@ -1,0 +1,71 @@
+:root {
+    --slate300: #D5E1EF;
+    --slate900: #1F314F;
+    --slate500: #68778D;
+
+    --font-family: 'Outfit', sans-serif;
+    --font-title-text: 22px;
+    --font-title-LineHeight: 120%;
+    --font-title-letterSpacing: 0px;
+
+    --font-text: 15px;
+    --font-LineHeight: 140%;
+    --font-letterSpacing: 0.2px;
+}
+
+.container__bg--img {
+    width: 160px;
+    height: 160px;
+}
+
+body {
+    background-color: var(--slate300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;   
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 320px;
+    height: auto;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+
+}
+
+.container__bgqr {
+    background-color: #2C7DFA; 
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+p.title {
+    font-family: var(--font-family);
+    font-size: var(--font-title-text);
+    line-height: var(--font-title-LineHeight);
+    letter-spacing: var(--font-title-letterSpacing);
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px 0 16px;
+}
+
+p.text {
+    font-family: var(--font-family);
+    font-size: var(--font-text);
+    line-height: var(--font-LineHeight);
+    letter-spacing: var(--font-letterSpacing);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px 16px 0 16px;
+}
